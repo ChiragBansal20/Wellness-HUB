@@ -419,94 +419,6 @@
         .overweight { color: #FF9800; }
         .obesity { color: #F44336; }
         
-        .products-container {
-            position: relative;
-        }
-        
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2.5rem;
-        }
-        
-        .product-card {
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .product-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-        }
-        
-        .product-img {
-            height: 250px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .product-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s;
-        }
-        
-        .product-card:hover .product-img img {
-            transform: scale(1.1);
-        }
-        
-        .product-badge {
-            position: absolute;
-            top: 1rem;
-            left: 1rem;
-            background-color: var(--accent);
-            color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
-        
-        .product-info {
-            padding: 1.8rem;
-        }
-        
-        .product-info h3 {
-            margin-bottom: 0.8rem;
-            color: var(--dark);
-            font-size: 1.2rem;
-        }
-        
-        .product-info p {
-            color: #666;
-            margin-bottom: 1.2rem;
-            font-size: 0.95rem;
-            line-height: 1.6;
-        }
-        
-        .price {
-            color: var(--primary);
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            display: block;
-        }
-        
-        .product-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .rating {
-            color: #FFD700;
-            font-size: 0.9rem;
-        }
-        
         .workout-bg {
             background-color: var(--light);
             padding: 6rem 0;
@@ -829,7 +741,6 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#calculator">BMI Calculator</a></li>
-                <li><a href="#shop">Shop</a></li>
                 <li><a href="#workouts">Workout Plans</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
             </ul>
@@ -907,81 +818,6 @@
         </div>
     </section>
 
-    <section id="shop" class="section">
-        <div class="section-header">
-            <h2>Shop Premium Fitness Equipment</h2>
-            <p>High-quality gear designed to enhance your performance and support your fitness journey</p>
-        </div>
-        <div class="products-container">
-            <div class="products">
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="/api/placeholder/400/320" alt="Adjustable Dumbbells">
-                        <div class="product-badge">Popular</div>
-                    </div>
-                    <div class="product-info">
-                        <h3>Pro Adjustable Dumbbells</h3>
-                        <p>Premium adjustable dumbbells with weight range from 5kg to 32.5kg. Perfect for home gyms.</p>
-                        <span class="price">$299.99</span>
-                        <div class="product-footer">
-                            <div class="rating">★★★★★ (127)</div>
-                            <button class="btn btn-outline">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="/api/placeholder/400/320" alt="Yoga Mat">
-                    </div>
-                    <div class="product-info">
-                        <h3>Ultra Grip Yoga Mat</h3>
-                        <p>Non-slip, eco-friendly yoga mat with perfect cushioning for all practices. Includes carrying strap.</p>
-                        <span class="price">$49.99</span>
-                        <div class="product-footer">
-                            <div class="rating">★★★★☆ (94)</div>
-                            <button class="btn btn-outline">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="/api/placeholder/400/320" alt="Resistance Bands">
-                        <div class="product-badge">New</div>
-                    </div>
-                    <div class="product-info">
-                        <h3>Pro Resistance Bands Set</h3>
-                        <p>Complete set of 5 resistance bands with different strengths for versatile workouts anywhere.</p>
-                        <span class="price">$34.99</span>
-                        <div class="product-footer">
-                            <div class="rating">★★★★★ (56)</div>
-                            <button class="btn btn-outline">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="/api/placeholder/400/320" alt="Kettlebell">
-                    </div>
-                    <div class="product-info">
-                        <h3>Competition Kettlebell</h3>
-                        <p>Professional-grade cast iron kettlebell with comfortable grip. Available in multiple weights.</p>
-                        <span class="price">$79.99</span>
-                        <div class="product-footer">
-                            <div class="rating">
-                                <div class="product-info">
-                                    <h3>Competition Kettlebell</h3>
-                                    <p>Professional-grade cast iron kettlebell with comfortable grip. Available in multiple weights.</p>
-                                    <span class="price">$79.99</span>
-                                    <div class="product-footer">
-                                        <div class="rating">★★★★☆ (83)</div>
-                                        <button class="btn btn-outline">Add to Cart</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-        
                 <section id="workouts" class="workout-bg">
                     <div class="section-header">
                         <h2>Personalized Workout Plans</h2>
