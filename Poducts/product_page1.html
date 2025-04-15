@@ -3,9 +3,430 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Premium Adjustable Dumbbells - FitZone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">FitZone</div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Equipment</a></li>
+                        <li><a href="#">Supplements</a></li>
+                        <li><a href="#">Apparel</a></li>
+                        <li><a href="#">Fitness Tips</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <a href="#" aria-label="Search"><i class="fas fa-search"></i></a>
+                    <a href="#" aria-label="Cart"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#" aria-label="Account"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="#">Home</a> / 
+            <a href="#">Equipment</a> / 
+            <span>Premium Adjustable Dumbbells</span>
+        </div>
+
+        <!-- Product Section -->
+        <section class="product-section">
+            <!-- Product Images -->
+            <div class="product-images">
+                <div class="main-image">
+                    <img id="main-product-image" src="https://via.placeholder.com/600x600?text=Adjustable+Dumbbells" alt="Premium Adjustable Dumbbells">
+                </div>
+                <div class="thumbnail-container">
+                    <div class="thumbnail active" data-image="https://via.placeholder.com/600x600?text=Adjustable+Dumbbells">
+                        <img src="https://via.placeholder.com/120x120?text=Dumbbells" alt="Front View">
+                    </div>
+                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600?text=Weight+Plates">
+                        <img src="https://via.placeholder.com/120x120?text=Plates" alt="Weight Plates">
+                    </div>
+                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600?text=Adjustment+Mechanism">
+                        <img src="https://via.placeholder.com/120x120?text=Mechanism" alt="Adjustment Mechanism">
+                    </div>
+                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600?text=In+Use">
+                        <img src="https://via.placeholder.com/120x120?text=In+Use" alt="In Use">
+                    </div>
+                    <div class="thumbnail" data-image="https://via.placeholder.com/600x600?text=Storage+Rack">
+                        <img src="https://via.placeholder.com/120x120?text=Rack" alt="Storage Rack">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="product-details">
+                <h1>Premium Adjustable Dumbbells Set</h1>
+                
+                <div class="product-rating">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.7 (156 reviews)</span>
+                </div>
+                
+                <div class="product-price">
+                    <span class="current-price">$249.99</span>
+                    <span class="old-price">$299.99</span>
+                </div>
+                
+                <!-- Color Selection -->
+                <div class="product-colors">
+                    <h3>Color</h3>
+                    <div class="color-options">
+                        <div class="color-option selected" style="background-color: #000000;" data-color="Black"></div>
+                        <div class="color-option" style="background-color: #C0C0C0;" data-color="Silver"></div>
+                        <div class="color-option" style="background-color: #CD5C5C;" data-color="Red"></div>
+                        <div class="color-option" style="background-color: #4682B4;" data-color="Blue"></div>
+                    </div>
+                    <p class="selected-color">Selected: Black</p>
+                </div>
+                
+                <!-- Weight Range Selection -->
+                <div class="product-sizes">
+                    <h3>Weight Range</h3>
+                    <div class="size-options">
+                        <div class="size-option selected">5-25 lbs</div>
+                        <div class="size-option">10-50 lbs</div>
+                        <div class="size-option">20-90 lbs</div>
+                    </div>
+                </div>
+                
+                <!-- Quantity -->
+                <div class="product-quantity">
+                    <h3>Quantity</h3>
+                    <div class="quantity-selector">
+                        <button id="decrease-quantity">-</button>
+                        <input type="number" id="quantity" value="1" min="1">
+                        <button id="increase-quantity">+</button>
+                    </div>
+                </div>
+                
+                <!-- Action Buttons -->
+                <div class="product-actions">
+                    <button class="add-to-cart-btn">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="wishlist-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <button class="share-btn">
+                        <i class="fas fa-share-alt"></i>
+                    </button>
+                </div>
+                
+                <!-- Collapsible Sections -->
+                <div class="product-collapsible">
+                    <div class="collapsible-section">
+                        <div class="collapsible-header active">
+                            <h3>Product Description</h3>
+                            <i class="fas fa-chevron-up"></i>
+                        </div>
+                        <div class="collapsible-content show">
+                            <p>Transform your home gym with our Premium Adjustable Dumbbells Set. These space-saving dumbbells replace multiple sets of weights with a simple dial adjustment system. Perfect for strength training, HIIT workouts, and muscle building exercises. The ergonomic handles provide a comfortable grip, while the durable construction ensures long-lasting performance.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-section">
+                        <div class="collapsible-header">
+                            <h3>Specifications</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="collapsible-content">
+                            <ul class="specifications-list">
+                                <li><i class="fas fa-check"></i> Quick weight adjustment with dial system</li>
+                                <li><i class="fas fa-check"></i> Space-saving design replaces multiple dumbbell sets</li>
+                                <li><i class="fas fa-check"></i> Durable cast iron plates with premium coating</li>
+                                <li><i class="fas fa-check"></i> Ergonomic knurled handles for secure grip</li>
+                                <li><i class="fas fa-check"></i> Weight increments: 5, 10, 15, 20, 25 lbs (per dumbbell)</li>
+                                <li><i class="fas fa-check"></i> Storage tray included for easy organization</li>
+                                <li><i class="fas fa-check"></i> Dimensions: 16.9" x 8.3" x 9.5" (including tray)</li>
+                                <li><i class="fas fa-check"></i> 2-year manufacturer warranty</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-section">
+                        <div class="collapsible-header">
+                            <h3>Shipping & Returns</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="collapsible-content">
+                            <p>Free shipping on orders over $100. Standard delivery 5-7 business days due to product weight.</p>
+                            <p>30-day return policy for unused items in original packaging. Please note that return shipping for heavy items may incur additional fees.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews-section">
+            <h2>Customer Reviews</h2>
+            
+            <div class="reviews-container">
+                <!-- Reviews Summary -->
+                <div class="reviews-summary">
+                    <div class="average-rating">
+                        <div class="rating-number">4.7</div>
+                        <div class="rating-stars">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="total-reviews">156 reviews</div>
+                        </div>
+                    </div>
+                    
+                    <div class="rating-breakdown">
+                        <div class="rating-bar">
+                            <span class="rating-label">5 stars</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                            <span class="rating-count">117</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span class="rating-label">4 stars</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 18%"></div>
+                            </div>
+                            <span class="rating-count">28</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span class="rating-label">3 stars</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 5%"></div>
+                            </div>
+                            <span class="rating-count">8</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span class="rating-label">2 stars</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 1%"></div>
+                            </div>
+                            <span class="rating-count">2</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span class="rating-label">1 star</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 1%"></div>
+                            </div>
+                            <span class="rating-count">1</span>
+                        </div>
+                    </div>
+                    
+                    <button class="write-review-btn">Write a Review</button>
+                </div>
+                
+                <!-- Reviews List -->
+                <div class="reviews-list">
+                    <div class="reviews-filter">
+                        <button class="filter-btn active" data-filter="all">All Reviews</button>
+                        <button class="filter-btn" data-filter="5">5 Stars</button>
+                        <button class="filter-btn" data-filter="4">4 Stars</button>
+                        <button class="filter-btn" data-filter="3">3 Stars</button>
+                        <button class="filter-btn" data-filter="2">2 Stars</button>
+                        <button class="filter-btn" data-filter="1">1 Star</button>
+                    </div>
+                    
+                    <div class="reviews">
+                        <div class="review-item" data-rating="5">
+                            <div class="review-header">
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="review-date">2023-05-12</div>
+                            </div>
+                            <h4 class="review-title">Perfect for home workouts</h4>
+                            <p class="review-content">These adjustable dumbbells have completely transformed my home workouts. They're incredibly easy to adjust between sets and the build quality is excellent. I love that they take up so little space compared to a full dumbbell rack. Worth every penny!</p>
+                            <div class="review-author">
+                                <span class="author-name">Mike T.</span>
+                                <span class="verified-badge">Verified Purchase</span>
+                            </div>
+                            <div class="review-actions">
+                                <button class="helpful-btn"><i class="far fa-thumbs-up"></i> Helpful (32)</button>
+                                <button class="not-helpful-btn"><i class="far fa-thumbs-down"></i> Not helpful</button>
+                            </div>
+                        </div>
+                        
+                        <div class="review-item" data-rating="4">
+                            <div class="review-header">
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="review-date">2023-04-28</div>
+                            </div>
+                            <h4 class="review-title">Great quality, slightly bulky</h4>
+                            <p class="review-content">The quality of these dumbbells is excellent and the weight adjustment mechanism works smoothly. My only complaint is that they're a bit bulkier than traditional dumbbells, which can make some exercises a little awkward. Still, the space-saving benefit outweighs this minor issue.</p>
+                            <div class="review-author">
+                                <span class="author-name">Sarah L.</span>
+                                <span class="verified-badge">Verified Purchase</span>
+                            </div>
+                            <div class="review-actions">
+                                <button class="helpful-btn"><i class="far fa-thumbs-up"></i> Helpful (18)</button>
+                                <button class="not-helpful-btn"><i class="far fa-thumbs-down"></i> Not helpful</button>
+                            </div>
+                        </div>
+                        
+                        <div class="review-item" data-rating="5">
+                            <div class="review-header">
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="review-date">2023-04-15</div>
+                            </div>
+                            <h4 class="review-title">Best fitness investment I've made</h4>
+                            <p class="review-content">I've been using these dumbbells for 3 months now and they've been a game-changer for my fitness routine. The adjustment mechanism is quick and secure, and I love being able to quickly change weights between exercises. The build quality is excellent - these will last for years.</p>
+                            <div class="review-author">
+                                <span class="author-name">James R.</span>
+                                <span class="verified-badge">Verified Purchase</span>
+                            </div>
+                            <div class="review-actions">
+                                <button class="helpful-btn"><i class="far fa-thumbs-up"></i> Helpful (24)</button>
+                                <button class="not-helpful-btn"><i class="far fa-thumbs-down"></i> Not helpful</button>
+                            </div>
+                        </div>
+                        
+                        <div class="review-item" data-rating="3">
+                            <div class="review-header">
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="review-date">2023-03-22</div>
+                            </div>
+                            <h4 class="review-title">Good but could be better</h4>
+                            <p class="review-content">The concept is great and they do save a lot of space. However, the adjustment mechanism sometimes sticks, and they're quite bulky compared to regular dumbbells. For the price, I expected a smoother experience. They're good, but not perfect.</p>
+                            <div class="review-author">
+                                <span class="author-name">Alex K.</span>
+                                <span class="verified-badge">Verified Purchase</span>
+                            </div>
+                            <div class="review-actions">
+                                <button class="helpful-btn"><i class="far fa-thumbs-up"></i> Helpful (11)</button>
+                                <button class="not-helpful-btn"><i class="far fa-thumbs-down"></i> Not helpful</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section class="related-products">
+            <h2>Complete Your Home Gym</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Bench" alt="Adjustable Weight Bench">
+                    </div>
+                    <h3 class="product-title">Adjustable Weight Bench</h3>
+                    <p class="product-category">Equipment</p>
+                    <p class="product-price">$179.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Kettlebell" alt="Adjustable Kettlebell">
+                    </div>
+                    <h3 class="product-title">Adjustable Kettlebell</h3>
+                    <p class="product-category">Equipment</p>
+                    <p class="product-price">$129.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Mat" alt="Premium Exercise Mat">
+                    </div>
+                    <h3 class="product-title">Premium Exercise Mat</h3>
+                    <p class="product-category">Accessories</p>
+                    <p class="product-price">$49.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Protein" alt="Whey Protein Powder">
+                    </div>
+                    <h3 class="product-title">Whey Protein Powder</h3>
+                    <p class="product-category">Supplements</p>
+                    <p class="product-price">$59.99</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About FitZone</h3>
+                    <p>FitZone offers premium fitness equipment and supplements to help you achieve your fitness goals.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Equipment</a></li>
+                        <li><a href="#">Supplements</a></li>
+                        <li><a href="#">Workout Plans</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive fitness tips and special promotions.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FitZone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
